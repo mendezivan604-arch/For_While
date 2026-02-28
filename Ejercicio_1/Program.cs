@@ -42,3 +42,13 @@ for (int i = 5; i >= 1; i--)
     Console.WriteLine();
 }
 
+//Ejercicio 5
+Console.WriteLine("Ejercicio 5");
+for (int i = 1; i <= 5; i++)
+{
+    for (int j = 1; j <= 12; j++)
+    {
+        Console.WriteLine(i + " x " + j + " = " + (i*j));
+    }
+    Console.WriteLine();
+}
