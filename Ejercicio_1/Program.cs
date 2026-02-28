@@ -52,3 +52,16 @@ for (int i = 1; i <= 5; i++)
     }
     Console.WriteLine();
 }
+
+//Ejercicio 6
+Console.WriteLine("Ejercicio 6");
+int contador = 1;
+for (int i = 1; i <= 3; i++)
+{
+    for (int j = 1; j <= 3; j++)
+    {
+        Console.Write(contador);
+        contador++;
+    }
+    Console.WriteLine();
+}
