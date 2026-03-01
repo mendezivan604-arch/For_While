@@ -183,3 +183,15 @@ while (i17 != 0)
 }
 Console.WriteLine(positivos);
 
+//Ejercicio 18
+Console.WriteLine("Ejercicio 18");
+Console.Write("Ingresa un número: ");
+int numero = int.Parse(Console.ReadLine());
+int factorial = 1;
+int i18 = 1;
+while (i18 <= numero)
+{
+    factorial *= i18;
+    i18++;
+}
+Console.WriteLine("El factorial es: " + factorial);
