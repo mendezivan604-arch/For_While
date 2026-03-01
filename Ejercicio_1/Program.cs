@@ -1,6 +1,6 @@
 ﻿//Ejercicio 1
 Console.WriteLine("Ejercicio 1");
-for (int i = 1; i <= 5; i++)
+for (int i1 = 1; i1 <= 5; i1++)
 {
     for (int j = 1; j <= 5; j++)
     {
@@ -11,7 +11,7 @@ for (int i = 1; i <= 5; i++)
 
 //Ejercicio 2
 Console.WriteLine("Ejercicio 2");
-for (int i = 1; i <= 4; i++)
+for (int i2 = 1; i2 <= 4; i2++)
 {
     for (int j = 1; j <= 6; j++)
     {
@@ -22,9 +22,9 @@ for (int i = 1; i <= 4; i++)
 
 //Ejercicio 3
 Console.WriteLine("Ejercicio 3");
-for (int i = 1; i <= 5; i++)
+for (int i3 = 1; i3 <= 5; i3++)
 {
-    for (int j = 1; j <= i; j++)
+    for (int j = 1; j <= i3; j++)
     {
         Console.Write("*");
     }
@@ -33,9 +33,9 @@ for (int i = 1; i <= 5; i++)
 
 //Ejercicio 4
 Console.WriteLine("Ejercicio 4");
-for (int i = 5; i >= 1; i--)
+for (int i4 = 5; i4 >= 1; i4--)
 {
-    for (int j = 1; j <= i; j++)
+    for (int j = 1; j <= i4; j++)
     {
         Console.Write("*");
     }
@@ -44,11 +44,11 @@ for (int i = 5; i >= 1; i--)
 
 //Ejercicio 5
 Console.WriteLine("Ejercicio 5");
-for (int i = 1; i <= 5; i++)
+for (int i5 = 1; i5 <= 5; i5++)
 {
     for (int j = 1; j <= 12; j++)
     {
-        Console.WriteLine(i + " x " + j + " = " + (i*j));
+        Console.WriteLine(i5 + " x " + j + " = " + (i5*j));
     }
     Console.WriteLine();
 }
@@ -56,7 +56,7 @@ for (int i = 1; i <= 5; i++)
 //Ejercicio 6
 Console.WriteLine("Ejercicio 6");
 int contador = 1;
-for (int i = 1; i <= 3; i++)
+for (int i6 = 1; i6 <= 3; i6++)
 {
     for (int j = 1; j <= 3; j++)
     {
@@ -68,18 +68,18 @@ for (int i = 1; i <= 3; i++)
 
 //Ejercicio 7
 Console.WriteLine("Ejercicio 7");
-for (int i = 1; i <= 3; i++)
+for (int i7 = 1; i7 <= 3; i7++)
 {
     for (int j = 1; j <= 3; j++)
     {
-        Console.WriteLine(i + " - " + j);
+        Console.WriteLine(i7 + " - " + j);
 
     }
 }
 
 //Ejercicio 8
 Console.WriteLine("Ejercicio 8");
-for (int i = 1; i <= 4; i++)
+for (int i8 = 1; i8 <= 4; i8++)
 {
     for (int j = 1; j <= 4; j++)
     {
@@ -90,22 +90,31 @@ for (int i = 1; i <= 4; i++)
 
 //Ejercicio 9
 Console.WriteLine("Ejercicio 9");
-for (int i = 1; i <= 5; i++) 
+for (int i9 = 1; i9 <= 5; i9++) 
 {
-    for (int j = 1; j <= i; j++) 
+    for (int j = 1; j <= i9; j++) 
     {
-        Console.Write(i);
+        Console.Write(i9);
     }
     Console.WriteLine();
 }
 
 //Ejercicio 10
 Console.WriteLine("Ejercicio 10");
-for (int i = 1; i <= 4; i++)
+for (int i10 = 1; i10 <= 4; i10++)
 {
-    for (int j = 1; j <= i; j++)
+    for (int j = 1; j <= i10; j++)
     {
-        Console.Write(i);
+        Console.Write(i10);
     }
     Console.WriteLine();
+}
+
+//Ejercicio 10
+Console.WriteLine("Ejercicio 10");
+int i11 = 1;
+while (i11 <= 10)
+{
+    Console.WriteLine(i11);
+    i11++;
 }
