@@ -218,3 +218,15 @@ while (numerodos > 0)
     digitos++;
 }
 Console.WriteLine("El numero tiene " + digitos + " digitos.");
+
+//Ejercicio 21
+Console.WriteLine("Ejercicio 21");
+int suma100 = 0;
+int num;
+while (suma100 <= 100)
+{
+    Console.Write("Ingresa un número: ");
+    num = int.Parse(Console.ReadLine());
+    suma100 += num;
+}
+Console.WriteLine("Total acumulado: " + suma100);
