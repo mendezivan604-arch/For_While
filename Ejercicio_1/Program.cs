@@ -156,3 +156,13 @@ while (i15 <= 100)
     i15++;
 }
 Console.WriteLine("La suma es: " + suma);
+
+//Ejercicio 16
+Console.WriteLine("Ejercicio 16");
+int i16 = 1;
+while (i16 != 0)
+{
+    Console.WriteLine("Ingrese numero: ");
+    int j = int.Parse(Console.ReadLine());
+    i16 = j;
+}
