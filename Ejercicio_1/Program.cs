@@ -110,11 +110,20 @@ for (int i10 = 1; i10 <= 4; i10++)
     Console.WriteLine();
 }
 
-//Ejercicio 10
-Console.WriteLine("Ejercicio 10");
+//Ejercicio 11
+Console.WriteLine("Ejercicio 11");
 int i11 = 1;
 while (i11 <= 10)
 {
     Console.WriteLine(i11);
     i11++;
+}
+
+//Ejercicio 12
+Console.WriteLine("Ejercicio 12");
+int i12 = 10;
+while (i12 >= 1)
+{
+    Console.WriteLine(i12);
+    i12--;
 }
