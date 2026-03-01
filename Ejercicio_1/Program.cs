@@ -259,3 +259,37 @@ while (i24 <= 100)
     Console.WriteLine(i24);
     i24 += 5;
 }
+
+//Ejercicio 25
+Console.WriteLine("Ejercicio 25");
+int i25 = 0;
+while (i25 != 3)
+{
+    Console.WriteLine("1) Pobrar While");
+    Console.WriteLine("2) Aprender While");
+    Console.WriteLine("3) Salir");
+    Console.WriteLine("Ingrese opción: ");
+    int opcion = int.Parse(Console.ReadLine());
+    
+    switch (opcion)
+    {
+        case 1:
+            Console.WriteLine("Vamos a probar While");
+            break;
+
+        case 2:
+            Console.WriteLine("Vamos a aprender While");
+            break;
+
+        case 3:
+            Console.WriteLine("Saliendo del programa");
+            break;
+
+        default:
+            Console.WriteLine("Opción inválida");
+            break;
+
+    }
+    Console.ReadLine();
+    Console.Clear();
+}
