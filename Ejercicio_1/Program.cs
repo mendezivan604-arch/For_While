@@ -166,3 +166,20 @@ while (i16 != 0)
     int j = int.Parse(Console.ReadLine());
     i16 = j;
 }
+
+//Ejercicio 17
+Console.WriteLine("Ejercicio 17");
+int i17 = 1;
+int positivos = 0;
+while (i17 != 0)
+{
+    Console.WriteLine("Ingrese numero: ");
+    i17 = int.Parse(Console.ReadLine());
+
+    if (i17 > 0)
+    {
+        positivos++;
+    }
+}
+Console.WriteLine(positivos);
+
