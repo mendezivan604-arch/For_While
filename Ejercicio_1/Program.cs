@@ -250,3 +250,12 @@ while (i23 < 50)
     Console.WriteLine(i23);
     i23 += 3;
 }
+
+//Ejercicio 24
+Console.WriteLine("Ejercicio 24");
+int i24 = 5;
+while (i24 <= 100)
+{
+    Console.WriteLine(i24);
+    i24 += 5;
+}
