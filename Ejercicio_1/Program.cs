@@ -195,3 +195,14 @@ while (i18 <= numero)
     i18++;
 }
 Console.WriteLine("El factorial es: " + factorial);
+
+//Ejercicio 19
+Console.WriteLine("Ejercicio 19");
+Console.Write("Ingresa un número: ");
+int numero1 = int.Parse(Console.ReadLine());
+int i19 = 1;
+while (i19 <= 10)
+{
+    Console.WriteLine(numero1 + " x " + i19 + " = " + (numero1 * i19));
+    i19++;
+}
