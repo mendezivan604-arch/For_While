@@ -230,3 +230,14 @@ while (suma100 <= 100)
     suma100 += num;
 }
 Console.WriteLine("Total acumulado: " + suma100);
+
+//Ejercicio 22
+Console.WriteLine("Ejercicio 22");
+string contraseñaCorrecta = "1234";
+string contraseña = "";
+while (contraseña != contraseñaCorrecta)
+{
+    Console.Write("Ingresa la contraseña: ");
+    contraseña = Console.ReadLine();
+}
+Console.WriteLine("Acceso permitido.");
