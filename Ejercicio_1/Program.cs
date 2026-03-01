@@ -127,3 +127,12 @@ while (i12 >= 1)
     Console.WriteLine(i12);
     i12--;
 }
+
+//Ejercicio 13
+Console.WriteLine("Ejercicio 13");
+int i13 = 2;
+while (i13 <= 20)
+{
+    Console.WriteLine(i13);
+    i13 += 2;
+}
