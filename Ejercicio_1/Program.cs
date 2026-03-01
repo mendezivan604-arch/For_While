@@ -241,3 +241,12 @@ while (contraseña != contraseñaCorrecta)
     contraseña = Console.ReadLine();
 }
 Console.WriteLine("Acceso permitido.");
+
+//Ejercicio 23
+Console.WriteLine("Ejercicio 23");
+int i23 = 3;
+while (i23 < 50)
+{
+    Console.WriteLine(i23);
+    i23 += 3;
+}
