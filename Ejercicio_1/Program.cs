@@ -145,3 +145,14 @@ while (i14 <= 20)
     Console.WriteLine(i14);
     i14 += 2;
 }
+
+//Ejercicio 15
+Console.WriteLine("Ejercicio 15");
+int i15 = 1;
+int suma = 0;
+while (i15 <= 100)
+{
+    suma += i15;
+    i15++;
+}
+Console.WriteLine("La suma es: " + suma);
