@@ -206,3 +206,15 @@ while (i19 <= 10)
     Console.WriteLine(numero1 + " x " + i19 + " = " + (numero1 * i19));
     i19++;
 }
+
+//Ejercicio 20
+Console.WriteLine("Ejercicio 20");
+Console.WriteLine("ingrese numero");
+int numerodos = int.Parse(Console.ReadLine());
+int digitos = 0;
+while (numerodos > 0)
+{
+    numerodos = numerodos / 10;
+    digitos++;
+}
+Console.WriteLine("El numero tiene " + digitos + " digitos.");
